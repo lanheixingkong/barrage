@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telphone=no" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <noscript><meta http-equiv="X-Frame-Options" content="deny" /></noscript>
+    <title>弹幕示例</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/demo.css">
+</head>
+<body>
+<div class="video">
+	<iframe src="http://sports.le.com/video/26856849.html" height="450px" width="100%" id="site"></iframe>
+<div>
+<div class="feng-ccl-panel">
+	<div class="content-txt">
+		<input type="text" id="url" />
+		<input type="button" id="changeUrlBtn" value="切换网站"/>
+	</div>
+	<div class="content-txt">
+		<input type="text" id="content" />
+		<input type="button" id="sendBtn" value="发送"/>
+	</div>
+    <div class="abp" id="feng-player">
+        <div id="commentCanvas" class="container"></div>
+    </div>
+</div>
+
+<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="./js/CommentCoreLibrary.js"></script>
+<script type="text/javascript" src="./js/demo.js"></script>
+</body>
+</html>
